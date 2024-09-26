@@ -7,7 +7,7 @@ gem "sprockets-rails"
 # Use jdbcsqlite3 as the database for Active Record
 gem 'activerecord-jdbcpostgresql-adapter', '~> 61.0', platform: :jruby
 
-gem 'warbler', '~> 2.0', '>= 2.0.5'
+gem 'warbler', '2.0.5', git: 'https://github.com/jruby/warbler', branch: 'master', platforms: :jruby
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
