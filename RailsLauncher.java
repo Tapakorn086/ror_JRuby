@@ -1,3 +1,5 @@
+
+// java -cp lib/jruby-complete-9.4.8.0.jar:. RailsLauncher for run
 import org.jruby.Ruby;
 import org.jruby.RubyInstanceConfig;
 import org.jruby.embed.ScriptingContainer;
