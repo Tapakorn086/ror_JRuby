@@ -8,6 +8,7 @@ gem "sprockets-rails"
 gem 'activerecord-jdbcpostgresql-adapter', '~> 61.0', platform: :jruby
 
 gem 'warbler', '2.0.5', git: 'https://github.com/jruby/warbler', branch: 'master', platforms: :jruby
+gem 'jruby-jars', '~> 9.4', '>= 9.4.8.0'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"

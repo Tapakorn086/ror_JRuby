@@ -220,6 +220,7 @@ DEPENDENCIES
   error_highlight (>= 0.4.0)
   importmap-rails
   jbuilder
+  jruby-jars (~> 9.4, >= 9.4.8.0)
   puma (>= 5.0)
   rails (~> 6.1.0)
   selenium-webdriver
