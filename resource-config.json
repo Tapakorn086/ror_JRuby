@@ -1,0 +1,23 @@
+{
+    "resources": [
+      {"pattern": "META-INF/MANIFEST.MF"},
+      {"pattern": "META-INF/jruby.home/.*"},
+      {"pattern": "META-INF/maven/.*"},
+      {"pattern": "gems/.*"},
+      {"pattern": "jruby/.*"},
+      {"pattern": "org/jruby/.*"},
+      {"pattern": "rubygems/.*"},
+      {"pattern": "sprites/.*"},
+      {"pattern": "assets/.*"},
+      {"pattern": "config/.*\\.yml"},
+      {"pattern": "config/.*\\.rb"},
+      {"pattern": "db/.*\\.rb"},
+      {"pattern": "app/.*\\.rb"},
+      {"pattern": "lib/.*\\.rb"},
+      {"pattern": "vendor/.*\\.rb"},
+      {"pattern": ".*\\.properties"}
+    ],
+    "bundles": [
+      {"name": "messages"}
+    ]
+  }
